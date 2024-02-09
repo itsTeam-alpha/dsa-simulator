@@ -1,0 +1,144 @@
+/* total-width:1519.2px
+total-height:829.15px */
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 24.16vw 51.68vw 24.16vw;
+    grid-template-rows: 25.87vh 48.26vh 25.87vh;
+}
+
+.first {
+    background-color: tomato;
+}
+
+.second {
+    background-color: aqua;
+}
+
+.third {
+    background-color: chartreuse;
+}
+
+.fourth {
+    background-color: violet;
+}
+
+.fifth {
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth {
+    background-color: teal;
+}
+
+.seventh {
+    background-color: yellowgreen;
+}
+
+.eigth {
+    background-color: darkmagenta;
+}
+
+.ninth {
+    background-color: slateblue;
+}
+
+.first label {
+    display: flex;
+}
+
+.first label input {
+    width: 2.7vw;
+    height: 3.1vh;
+}
+input:valid {
+    background-color: yellow;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#ek{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#paanch {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.first-button
+{
+    display: flex;
+    justify-content: center;
+}
+.first-button button
+{
+    margin: 3vh 0vw;
+}
+.first-button button:hover
+{
+    cursor: pointer;
+}
+.fifth .bar-graph
+{
+   width: 46.68vw;
+   height: 44.26vh;
+   display:flex;
+}
+/* .bar-graph
+{
+    transform: scaleY(-1);
+} */
+ .pipe
+{
+    background-color: chartreuse;
+    width: 9.336vw;
+}
+.fourth-heading
+{
+    width: 100%;
+    text-align: center;
+}
+.Bubble-button
+{
+    text-align: center;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Bubble-button p{
+    background-color:seagreen;
+    width: 7.58vw;
+    padding: 1.6031vh;
+}
+.Bubble-button p:hover
+{
+    cursor: pointer;
+}
+.color-changer1
+{
+    background-color:chartreuse ;
+    transition: background-color 0.5s linear 1s;
+}
+.color-changer1:focus
+{
+    background-color: yellow;
+}
+.color-changer2
+{
+    background-color: chartreuse;
+    transition: background-color 0.5s linear 1s;
+}
